@@ -24,8 +24,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         txtShow = findViewById(R.id.txtShow);
         txtWrite = findViewById(R.id.txtWrite);
 
-
         btnTryk = findViewById(R.id.btnTryk);
+
         //btnTryk.setOnClickListener(this);
         //btnTryk.setOnClickListener(new MyHandler(this));
         btnTryk.setOnClickListener(new View.OnClickListener()
@@ -45,5 +45,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     {
         Button btn = (Button)v;
         btn.setText("Der blev trykket");
+
+        //String talStr = "123";
+        //int tal = Integer.parseInt(talStr);
     }
 }
