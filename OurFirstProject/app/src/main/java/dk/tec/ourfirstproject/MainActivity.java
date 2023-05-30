@@ -36,8 +36,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 txtShow.setText(txtWrite.getText());
             }
         });
-
-
     }
 
     @Override
