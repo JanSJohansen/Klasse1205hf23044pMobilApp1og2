@@ -35,7 +35,8 @@ public class MyView extends View implements View.OnTouchListener
     @Override
     public boolean onTouch(View v, MotionEvent event)
     {
-        int fingre = event.getPointerCount();
+        int fingre = event.getPointerCount();  // 2 fingre
+        event.getX(0); // Find afstanden imellem fingre og sæt diamter til dette.
 
         int xNew = (int)event.getX();
         int yNew = (int)event.getY();
